@@ -26,6 +26,7 @@ This analysis can help airlines understand pain points, service issues, and cust
 
 ### 2.1 High-Level Pipeline
 
+```text
 
 Raw Tweets
    ↓
@@ -36,6 +37,7 @@ TF-IDF Feature Extraction
 Machine Learning Classifier
    ↓
 Predicted Emotion (anger / joy / neutral)
+```
 
 
 ## 🔥 Key Features
