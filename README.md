@@ -89,7 +89,7 @@ open the .ipynb file and run cell-by-cell
 
 ## Visulization Plots:
 <img src="images/download.png" width="500" />
-<img src="" width="500" />
+<img src="images/download (3).png" width="500" />
 <img src="images/download (1).png" width="500" />
 <img src="images/download (8).png" width="500" />
 
