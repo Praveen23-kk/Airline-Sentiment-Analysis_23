@@ -33,8 +33,10 @@ The goal is to understand customer emotions, identify dissatisfaction patterns, 
 
 Airline-Sentiment-Analysis_23/
 │── Airline_Review_Sentimental_Analysis_(NLP)_&_Visulalization_in_Wordcloud.ipynb
+│──images/
 │── README.md (you are here)
 └── data/
+      
 
 
 ---
@@ -44,11 +46,11 @@ Airline-Sentiment-Analysis_23/
 | Attribute | Info |
 |----------|------|
 | Source   | Kaggle |
-| Format   | CSV / JSON |
+| Format   | CSV |
 | Fields   | review_text, airline, sentiment_label, etc |
-| Size     | ~10K+ rows (update with exact count) |
+| Size     | ~14,640 rows (update with exact count) |
 
-> Add dataset source link here if allowed.
+> dataset source link.
 https://www.kaggle.com/datasets/tango911/airline-sentiment-tweets
 ---
 
