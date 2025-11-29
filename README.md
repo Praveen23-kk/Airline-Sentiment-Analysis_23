@@ -87,7 +87,7 @@ pip install pandas numpy scikit-learn nltk seaborn matplotlib wordcloud
 jupyter notebook
 open the .ipynb file and run cell-by-cell
 
-<img src="images/sentiment_distribution.png" width="450" />
+<img src="images/download (1).png" width="450" />
 <img src="images/wordcloud_negative.png" width="450" />
 <img src="images/wordcloud_positive.png" width="450" />
 
