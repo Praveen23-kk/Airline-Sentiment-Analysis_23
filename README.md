@@ -1,67 +1,102 @@
-# Airline Sentiment Analysis (NLP + WordCloud)
+# Airline Sentiment Analysis (NLP | WordCloud | ML)
 
-This project analyzes airline customer reviews using Natural Language Processing (NLP) to classify sentiment as **Positive**, **Negative**, or **Neutral**, and visualizes frequent words using **WordClouds**.
-
-> Main notebook: `Airline_Review_Sentimental_Analysis_(NLP)_&_Visulalization_in_Wordcloud.ipynb`
-
----
-
-## 1. Objectives
-
-This project aims to:
-
-- Clean and preprocess raw airline review text data  
-- Explore the dataset and visualize sentiment distribution  
-- Build a sentiment classification model  
-- Generate **WordClouds** for different sentiment classes  
-- Extract insights about customer satisfaction and complaints
+A complete end-to-end sentiment analysis project on airline customer reviews.  
+The notebook performs data cleaning, preprocessing, visualization, and sentiment classification using NLP techniques and machine learning models.  
+WordClouds are generated to highlight the most frequent terms in positive and negative feedback.
 
 ---
 
-## 2. Dataset
+## 📌 Project Overview
 
-Describe your dataset here. Example structure:
+Airline companies receive thousands of reviews daily.  
+This project analyzes those reviews and classifies them into:
 
-| Detail   | Description                              |
-|----------|------------------------------------------|
-| Source   | e.g. Kaggle / given by faculty / custom  |
-| Size     | e.g. ~14,000 reviews                     |
-| Columns  | e.g. `text`, `airline`, `sentiment`, ... |
+- Positive  
+- Neutral  
+- Negative  
 
-If public, add the link:
-
-- Dataset link: `[Airline Sentiment Dataset](https://www.kaggle.com/)`  
-
-> Update this section with your exact dataset info.
+The goal is to understand customer emotions, identify dissatisfaction patterns, and visualize text insights using WordCloud.
 
 ---
 
-## 3. Features of the Project
+## 🔥 Key Features
 
-- Text cleaning: lowercasing, punctuation removal, stopword removal  
-- Optional: stemming / lemmatization  
-- Sentiment label encoding (Positive / Neutral / Negative)  
-- Exploratory Data Analysis (EDA) on sentiment distribution  
-- WordClouds for:
-  - All reviews  
-  - Negative reviews  
-  - Positive reviews  
-- Machine learning model for sentiment classification (e.g. Logistic Regression, Naive Bayes, etc.)  
-- Model evaluation using accuracy, confusion matrix, etc.
+- Text preprocessing (tokenization, stopword removal, stemming/lemmatization)
+- Sentiment classification using ML models
+- WordClouds for positive and negative feedback
+- Sentiment distribution & data visualization
+- Clean, structured Jupyter notebook for reproducible results
 
 ---
 
-## 4. Tech Stack
+## 📂 Repository Structure
 
-| Category   | Tools / Libraries                                      |
-|-----------|--------------------------------------------------------|
-| Language  | Python                                                |
-| Notebook  | Google Colab / Jupyter Notebook                       |
-| Data      | CSV / JSON dataset                                    |
-| Libraries | `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `wordcloud`, `nltk` (or others you used) |
+Airline-Sentiment-Analysis_23/
+│── Airline_Review_Sentimental_Analysis_(NLP)_&_Visulalization_in_Wordcloud.ipynb
+│── README.md (you are here)
+└── data/
 
-Update the list based on what you actually imported in the notebook.
 
 ---
 
-## 5. Pro
+## 📊 Dataset Details
+
+| Attribute | Info |
+|----------|------|
+| Source   | Kaggle / Custom Dataset |
+| Format   | CSV / JSON |
+| Fields   | review_text, airline, sentiment_label, etc |
+| Size     | ~10K+ rows (update with exact count) |
+
+> Add dataset source link here if allowed.
+
+---
+
+## 🧠 ML/NLP Workflow
+
+1. Load and inspect dataset  
+2. Preprocess text (cleaning + normalization)  
+3. Encode sentiment labels  
+4. Perform EDA (sentiment counts, word frequency, barplots)  
+5. Create WordClouds per sentiment class  
+6. Convert text into TF-IDF / Bag-of-Words vectors  
+7. Train ML models (Naive Bayes / Logistic Regression / SVM etc.)  
+8. Evaluate using accuracy & confusion matrix  
+
+---
+
+## 🏗 Technologies Used
+
+| Tech | Purpose |
+|------|----------|
+| Python | Core programming |
+| Pandas, NumPy | Data handling |
+| Scikit-Learn | Machine learning models |
+| NLTK / SpaCy | NLP preprocessing |
+| Matplotlib, Seaborn | Visualizations |
+| WordCloud | Text visualization |
+| Google Colab / Jupyter | Notebook execution |
+
+---
+
+## Install dependencies:
+
+pip install pandas numpy scikit-learn nltk seaborn matplotlib wordcloud
+
+## Run notebook:
+jupyter notebook
+# open the .ipynb file and run cell-by-cell
+
+<img src="images/sentiment_distribution.png" width="450" />
+<img src="images/wordcloud_negative.png" width="450" />
+<img src="images/wordcloud_positive.png" width="450" />
+
+
+## 🚀 How to Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/Airline-Sentiment-Analysis_23.git
+cd Airline-Sentiment-Analysis_23
+
