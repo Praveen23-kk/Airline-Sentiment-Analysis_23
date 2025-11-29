@@ -85,7 +85,7 @@ pip install pandas numpy scikit-learn nltk seaborn matplotlib wordcloud
 
 ## Run notebook:
 jupyter notebook
-# open the .ipynb file and run cell-by-cell
+open the .ipynb file and run cell-by-cell
 
 <img src="images/sentiment_distribution.png" width="450" />
 <img src="images/wordcloud_negative.png" width="450" />
