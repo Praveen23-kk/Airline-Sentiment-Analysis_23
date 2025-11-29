@@ -1,23 +1,42 @@
-# Airline Sentiment Analysis (NLP | WordCloud | ML)
+# Airline Sentiment Analysis (NLP · WordCloud · ML)
 
-A complete end-to-end sentiment analysis project on airline customer reviews.  
-The notebook performs data cleaning, preprocessing, visualization, and sentiment classification using NLP techniques and machine learning models.  
-WordClouds are generated to highlight the most frequent terms in positive and negative feedback.
+This repository contains an end-to-end analysis of airline customer tweets using Natural Language Processing (NLP) and Machine Learning.  
+The project cleans and preprocesses raw text, builds a sentiment classification model, and visualizes insights using plots and word clouds.
+
+Main notebook:  
+`Airline_Review_Sentimental_Analysis_(NLP)_&_Visulalization_in_Wordcloud.ipynb`
+
+---
+
+## 1. Project Overview
+
+Airlines receive huge volumes of customer feedback on social media.  
+The goal of this project is to:
+
+- Classify each tweet into emotions such as **anger**, **joy**, and **neutral**.
+- Compare emotions across airlines using visual analytics.
+- Build a simple but effective ML model for sentiment/emotion prediction.
+- Generate **WordClouds** to highlight common terms in negative and positive tweets.
+
+This analysis can help airlines understand pain points, service issues, and customer satisfaction trends.
 
 ---
 
-## 📌 Project Overview
+## 2. Model Architecture
 
-Airline companies receive thousands of reviews daily.  
-This project analyzes those reviews and classifies them into:
+### 2.1 High-Level Pipeline
 
-- Positive  
-- Neutral  
-- Negative  
 
-The goal is to understand customer emotions, identify dissatisfaction patterns, and visualize text insights using WordCloud.
+Raw Tweets
+   ↓
+Text Preprocessing
+   ↓
+TF-IDF Feature Extraction
+   ↓
+Machine Learning Classifier
+   ↓
+Predicted Emotion (anger / joy / neutral)
 
----
 
 ## 🔥 Key Features
 
