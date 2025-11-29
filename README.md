@@ -43,13 +43,13 @@ Airline-Sentiment-Analysis_23/
 
 | Attribute | Info |
 |----------|------|
-| Source   | Kaggle / Custom Dataset |
+| Source   | Kaggle |
 | Format   | CSV / JSON |
 | Fields   | review_text, airline, sentiment_label, etc |
 | Size     | ~10K+ rows (update with exact count) |
 
 > Add dataset source link here if allowed.
-
+https://www.kaggle.com/datasets/tango911/airline-sentiment-tweets
 ---
 
 ## 🧠 ML/NLP Workflow
