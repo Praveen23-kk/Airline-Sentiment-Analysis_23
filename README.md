@@ -26,8 +26,8 @@ This analysis can help airlines understand pain points, service issues, and cust
 
 ### 2.1 High-Level Pipeline
 
-```text
 
+```
 Raw Tweets
    ↓
 Text Preprocessing
@@ -51,13 +51,13 @@ Predicted Emotion (anger / joy / neutral)
 ---
 
 ## 📂 Repository Structure
-
+```
 Airline-Sentiment-Analysis_23/
 │── Airline_Review_Sentimental_Analysis_(NLP)_&_Visulalization_in_Wordcloud.ipynb
 │──images
 │── README.md (you are here)
 └── data
-      
+```      
 
 
 ---
